@@ -15,7 +15,7 @@ You're going to write a function that can make k-Nearest-Neighbor predictions fo
 Notebook #2 consists of the following exercises :muscle:. 
 
 <b> Make sure you do the following </b>: [ 1 point each ]
-1. Work with the right subset (both rows and columns, re-read the first paragraph under 'what you need to do'): You're not going to work with the whole data set, just the features that you select. To start, make this subset of the original data.
+1. Work with the right subset (both rows and columns, re-read the first paragraph under 'what you need to do'): You're not going to work with the whole data set, just the 3-5 features that of your choice. To start, make this subset of the original data. Also, make sure your subset contains only countries with the "Status" feature as **Developing**. To start, make this subset of the original data.
 2. Check for null values in the target and predictor columns. If you have a null target value, you will need to throw that example out. If you have a null predictor value, you can either fill them in with something (like the mean/median) or you can drop those rows from the data set. Useful functions here are `isna()`, `any()`, `fillna()`, `value_counts()` and `dropna()`. Describe in a markup cell what you decided to do with the null data and why.
 3. Write up a k-nearest-neighbors function like the one you made for the iris data set in class. It should be able to make life expectancy predictions for countries based on the features you have decided to incorporate. You should also be able to specify what you want to use as k.
 4. Demonstrate that your function works by making up some new values for hypothetical countries and using your function to display the predicted life expectancy for that country.
