@@ -1,9 +1,11 @@
 # Notebook #2: K Nearest Neighbors and Normalization
 
-## The Data
-For this notebook, you will load a new data set dealing with public health and life expectancy :hospital:.
+## The Data 
+For this notebook, you will load a new data set dealing with data from the top songs on Spotify in 2022.
 
-The data is originally from here: https://www.kaggle.com/kumarajarshi/life-expectancy-who
+*Note: this data may be a few weeks old*
+
+The data is originally from here: https://www.kaggle.com/datasets/sveta151/spotify-top-chart-songs-2022
 
 
 ## What you need to do: :exclamation:
